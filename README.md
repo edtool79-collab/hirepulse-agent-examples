@@ -68,11 +68,13 @@ It uses Manual Trigger and HTTP Request, with no credentials or community node.
 It stops on HTTP 402 and never pays. CLI equivalent:
 
 ```sh
-n8n execute --file=n8n/workflow.json --rawOutput
+n8n import:workflow --input=n8n/workflow.json
+n8n execute --id=hirepulseExample2026 --rawOutput
 ```
 
 ## Actual output
 
+The n8n workflow was executed successfully using n8n 2.43.7; see output/n8n.json.
 The live Python and TypeScript calls returned HTTP 200 with charged_micro_usd=0.
 The MCP call reported eight tools and chargedMicroUsd=0. Full captured outputs
 are under [output/](output/), including the gateway's `checked_at` timestamps.
