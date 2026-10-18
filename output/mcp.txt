@@ -1,0 +1,113 @@
+
+> hirepulse-agent-examples@1.0.0 mcp
+> node claude-desktop/check.mjs
+
+{
+  "tool_count": 8,
+  "result": {
+    "_meta": {
+      "freeCallsRemaining": null,
+      "charged": false,
+      "chargedMicroUsd": 0
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"domain\":\"linear.app\",\"status\":\"ok\",\"final_url\":\"https://linear.app/\",\"title\":\"Linear – The system for product development\",\"has_meta_pixel\":false,\"has_google_ads_tag\":false,\"has_ga4\":false,\"has_gtm\":false,\"has_linkedin_insight\":false,\"has_tiktok_pixel\":false,\"ad_pixels\":[],\"analytics\":[],\"marketing_tools\":[],\"hosting_cdn\":[\"Cloudflare\"],\"frameworks\":[\"Next.js\",\"React\"],\"payments\":[],\"cms\":null,\"ecommerce\":null,\"email_provider\":\"Google Workspace\",\"spf_senders\":[\"Google Workspace\",\"Amazon SES\",\"HubSpot\"],\"dmarc_policy\":\"reject\",\"verified_services\":[\"Google Search Console\",\"Microsoft 365\",\"Stripe\",\"Apple\",\"DocuSign\",\"Slack\",\"OpenAI\",\"Notion\"],\"technology_count\":3,\"added\":null,\"removed\":null,\"is_first_run\":null,\"note\":null,\"checked_at\":\"2026-10-18T14:26:36+00:00\",\"next_steps\":[{\"tool\":\"company-intent\",\"mcp_tool\":\"get_company_hiring_intent\",\"url\":\"https://gethirepulse.xyz/v1/company-intent\",\"body\":{\"domain\":\"linear.app\"},\"price_usd\":0.01,\"why\":\"See whether this company is hiring now and in which teams.\"},{\"tool\":\"google-ads\",\"mcp_tool\":\"get_google_ads_by_domain\",\"url\":\"https://gethirepulse.xyz/v1/google-ads\",\"body\":{\"domain\":\"linear.app\"},\"price_usd\":0.01,\"why\":\"See whether it spends on Google Ads and what it advertises.\"},{\"tool\":\"company-profile\",\"mcp_tool\":\"get_company_profile\",\"url\":\"https://gethirepulse.xyz/v1/company-profile\",\"body\":{\"domain\":\"linear.app\"},\"price_usd\":0.03,\"why\":\"Next time: tech stack, hiring intent and Google Ads in one call.\"},{\"tool\":\"batch\",\"mcp_tool\":\"batch_lookup\",\"url\":\"https://gethirepulse.xyz/v1/batch\",\"body\":{\"tool\":\"tech-stack\",\"domains\":[\"linear.app\"]},\"price_usd\":0.005,\"why\":\"Checking many domains? Add up to 50 to domains: one free quote, then one payment for the rows with data only.\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "domain": "linear.app",
+      "status": "ok",
+      "final_url": "https://linear.app/",
+      "title": "Linear – The system for product development",
+      "has_meta_pixel": false,
+      "has_google_ads_tag": false,
+      "has_ga4": false,
+      "has_gtm": false,
+      "has_linkedin_insight": false,
+      "has_tiktok_pixel": false,
+      "ad_pixels": [],
+      "analytics": [],
+      "marketing_tools": [],
+      "hosting_cdn": [
+        "Cloudflare"
+      ],
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
+      "payments": [],
+      "cms": null,
+      "ecommerce": null,
+      "email_provider": "Google Workspace",
+      "spf_senders": [
+        "Google Workspace",
+        "Amazon SES",
+        "HubSpot"
+      ],
+      "dmarc_policy": "reject",
+      "verified_services": [
+        "Google Search Console",
+        "Microsoft 365",
+        "Stripe",
+        "Apple",
+        "DocuSign",
+        "Slack",
+        "OpenAI",
+        "Notion"
+      ],
+      "technology_count": 3,
+      "added": null,
+      "removed": null,
+      "is_first_run": null,
+      "note": null,
+      "checked_at": "2026-10-18T14:26:36+00:00",
+      "next_steps": [
+        {
+          "tool": "company-intent",
+          "mcp_tool": "get_company_hiring_intent",
+          "url": "https://gethirepulse.xyz/v1/company-intent",
+          "body": {
+            "domain": "linear.app"
+          },
+          "price_usd": 0.01,
+          "why": "See whether this company is hiring now and in which teams."
+        },
+        {
+          "tool": "google-ads",
+          "mcp_tool": "get_google_ads_by_domain",
+          "url": "https://gethirepulse.xyz/v1/google-ads",
+          "body": {
+            "domain": "linear.app"
+          },
+          "price_usd": 0.01,
+          "why": "See whether it spends on Google Ads and what it advertises."
+        },
+        {
+          "tool": "company-profile",
+          "mcp_tool": "get_company_profile",
+          "url": "https://gethirepulse.xyz/v1/company-profile",
+          "body": {
+            "domain": "linear.app"
+          },
+          "price_usd": 0.03,
+          "why": "Next time: tech stack, hiring intent and Google Ads in one call."
+        },
+        {
+          "tool": "batch",
+          "mcp_tool": "batch_lookup",
+          "url": "https://gethirepulse.xyz/v1/batch",
+          "body": {
+            "tool": "tech-stack",
+            "domains": [
+              "linear.app"
+            ]
+          },
+          "price_usd": 0.005,
+          "why": "Checking many domains? Add up to 50 to domains: one free quote, then one payment for the rows with data only."
+        }
+      ]
+    }
+  }
+}
